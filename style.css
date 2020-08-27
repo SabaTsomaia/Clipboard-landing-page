@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.background{
+    background-image: url(./images/bg-header-desktop.png);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    text-align: center;
+}
+#logo-1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.inside-header-container{
+    width: 660px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+p{
+    padding: 30px 0;
+    opacity: 0.7;
+    line-height: 1.8;
+}
+h1{
+    opacity: 0.8;
+    font-size: 40px;
+}
+#button-1{
+    border-radius: 25px;
+    width: 170px;
+    height: 45px;
+    border: none;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    cursor: pointer;
+    outline: none;
+}
+#button-1:hover, #button-2:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.19);
+}
+#button-2{
+    border-radius: 25px;
+    width: 170px;
+    height: 45px;
+    border: none;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    cursor: pointer;
+    margin-left: 13px;
+    outline: none;
+}
+.main-section-header-container{
+    margin-top: 110px;
+    width: 800px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 140px;
+}
+h2{
+    opacity: 0.85;
+}
+h3{
+    opacity: 0.8;
+    font-size: 25px;
+}
+.card-main-container{
+    display: flex;
+    align-items: center;
+}
+.card{
+    width: 323px;
+    max-width: 100%;
+}
+#computer{
+    margin-right: 50px;
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+}
+.section-1{
+    font-size: 22px;
+    margin-top: 70px;
+    text-align: center;
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-2{
+    text-align: center;
+}
+.section-2-text h2{
+    opacity: 0.6;
+    font-size: 35px;
+}
+.section-3{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+}
+.section-3-card{
+    text-align: center;
+    margin: 50px 30px;
+}
+.section-4{
+    display: flex;
+    justify-content: center;
+}
+#section-4-img{
+    width: 200px;
+    height: 50px;
+    margin: 0 30px;
+    max-width: 100%;
+}
+.section-5{
+    margin: 150px 0;
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(218, 216, 216, 0.3);
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+
+
+
+
+@media (max-width: 950px){
+    .card-main-container{
+        flex-direction: column;
+    }
+    #computer{
+        width: 580px;
+        max-width: 100%;
+        margin: 0;
+    }
+    .card{
+        text-align: center;
+    }
+    .card-container{
+        margin-top: 80px;
+    }
+    .section-4{
+        display: none;
+    }
+    footer{
+        flex-direction: column;
+    }
+    li{
+        margin: 15px 0;
+        text-align: center;
+    }
+    
+}
+@media (max-width: 700px){
+    .section-3{
+        flex-direction: column;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section-3-card{
+        margin-top: 80px;
+    }
+    #button-2{
+        margin: 10px 0;
+    }
+}
